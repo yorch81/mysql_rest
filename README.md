@@ -57,7 +57,11 @@ CREATE FUNCTION http_delete returns string soname 'mysql-udf-http.so';
 
 #### 6.- Test MySQL functions ####
 ~~~
-SELECT http_get('https://checkip.amazonaws.com/') AS RESPONSE;
+For test GET:
+	SELECT http_get('https://checkip.amazonaws.com/') AS RESPONSE;
+
+For test POST:
+	SELECT http_post('https://httpbin.org/post', CONCAT('param=', UUID())) AS RESPONSE;
 ~~~
 
 ## Notes ##
