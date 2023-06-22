@@ -1,7 +1,7 @@
 # MySQL REST #
 
 ## Description ##
-Consuming REST Web Services with MySQL 8 in Ubuntu 20.04.
+Consumming REST Web Services with MySQL 8 in Ubuntu 20.04.
 
 ## Step by step ##
 In first step install MySQL Server.
